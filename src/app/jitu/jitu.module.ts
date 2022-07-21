@@ -4,6 +4,8 @@ import { SinghComponent } from './singh/singh.component';
 import { KumarComponent } from './kumar/kumar.component';
 import { LaptopComponent } from './laptop/laptop.component';
 import { PhoneComponent } from './phone/phone.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 
 
@@ -12,7 +14,9 @@ import { PhoneComponent } from './phone/phone.component';
     SinghComponent,
     KumarComponent,
     LaptopComponent,
-    PhoneComponent
+    PhoneComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     CommonModule
